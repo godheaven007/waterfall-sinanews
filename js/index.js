@@ -34,7 +34,7 @@ function loadData(curPage, perPageCount) {
     };
 
     var script = document.createElement('script');
-    script.src = 'http://platform.sina.com.cn/slide/album_tech?jsoncallback=dataHandle' + getParam(data);
+    script.src = 'https://platform.sina.com.cn/slide/album_tech?jsoncallback=dataHandle' + getParam(data);
     document.body.appendChild(script);
     document.body.removeChild(script);
 }
