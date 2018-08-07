@@ -91,7 +91,7 @@ var WaterFull = (function () {
                 if(isAppear(container, target)) {
                     loadData(curPage, perPageCount);
                 }
-            }, 1000
+            }, 300
         ));
     }
 
